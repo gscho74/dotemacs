@@ -39,3 +39,14 @@
   :config
   (require 'autopair)
   )
+
+(use-package find-file-in-project
+  :ensure t
+  )
+
+(use-package auto-complete
+  :ensure t
+  :config
+  (ac-config-default)
+  )
+
