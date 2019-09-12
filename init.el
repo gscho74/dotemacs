@@ -51,6 +51,8 @@
 
 (use-package multi-term
   :ensure t
+  :config
+  (setq multi-term-program "/bin/bash")
   )
 
 (use-package auto-complete
