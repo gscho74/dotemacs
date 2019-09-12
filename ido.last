@@ -1,0 +1,46 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/gscho/" . "designs/")
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/" . "riscv/")
+ ("/home/gscho/designs/proj/pulp_ahb/" . "rtl/")
+ ("/home/gscho/designs/proj/" . "pulp_ahb/")
+ ("/home/gscho/designs/" . "proj/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/gscho/"
+ "/home/gscho/designs/proj/pulp_ahb/rtl/riscv/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test.sv"
+ "riscv.v"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/gscho/" (23930 18188 748889 603000) ".simvision/" ".dmrc" ".autosaves#README.md#" ".gitconfig" "vmware/" ".putty/" ".xsession-errors.old" ".mime.types" ".HashCheck/" "템플릿/" ".backups/" ".config/" ".kodi/" ".dropbox-dist/" ".lesshst" ".vscode-cpptools/" "snap/" ".bash_aliases" ".odbc.ini" ".gtkrc-2.0" ".subversion/" ".xinputrc" ".autosaves/" ".backup/" ".EMOHCx109" ".emacs.d_org/" ".autosaves#crt0.riscv_E.S#" "gui_command.log" ".Xdefaults" ".autosaves#verilog-mode.el#" ".viminfo" ".screenlets/" ".moc/" ".autosaves#mem_top.v#" ".autosaves#blc.v#" ".autosaves#tg.v#" ".pki/" ".autosaves#xx.c#" ".gnome2_private/" ".vimrc" "Dropbox/" ".atrenta/" ".gitignore" ".sh_history" ".ssh/" "./" "음악/" ".autosaves#apb_gpio.sv#" ".gtkpod/" ".rpmdb/" ".emacs.d/" ".gksu.lock" ".gconf/" ".verdi_onesearch_history.log" ".ncftp/" ".vmware/" ".jupyter/" ".autosaves#cmakelist_vcs.txt#" ".gnome/" ".autosaves#crt0.boot.S#" "바탕화면/" ".gnome2/" ".mozilla/" ".gnupg/" ".emacs~" ".sudo_as_admin_successful" ".ICEauthority" ".bashrc" ".autosaves#top.v#" ".autosaves#list.f#" "비디오/" ".thumbnails/" ".thunderbird/" ".bash_history" ".ARM/" ".autosaves#.gitignore#" "사진/" ".vp_password.lock" "designs/" ".dropbox/" ".wget-hsts" ".scripts/" ".shortcuts/" ".nabi/" ".python_history" "문서/" ".xscreensaver" "../" ".profile" "muah/" ".autosaves#fast_reg.v#" ".qt/" ".fonts/" ".vscode/" ".conky/" ".bash_logout" "공개/" ".autosaves#tg_core.v#" ".xsession-errors" ".Xauthority" ".face" ".autosaves#ius_in.f#" "다운로드/" ".autosaves#ido.last#" "command.log" ".autosaves#riscv.v#" "notebook/" "pulp_ahb_rtl.tar.gz" ".vim/" ".autosaves#lbus2ahb.v#" ".autosaves#CMakeLists.txt__#" ".autosaves#serial.txt#" ".picasso_27000.txt" "novas.conf" ".cache/" "test.sv" "Proj/" ".autosaves#ibus_arbiter.v#" ".local/" ".cxoffice/" ".ipython/" ".Synplicity/" ".sound/" ".delfino.conf" ".dbus/" ".presage/")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/riscv/" (23930 18012 547016 624000) "lbus2ahb.v" "lbus2ahb.v~" "ibus_arbiter.v~" "dbus_arbiter.v" "local_arbiter2x1.v~" "./" "irq_encoder.sv" "local_decoder.v~" "fpnew/" "ibus_arbiter.v" "riscv.v~" "riscv.v" "local_arbiter2x1.v" "dbus_arbiter.v~" "#local_decoder.v#" "local_decoder.v" "../" "list.f" "core/" "ahb_to_sram.v" "local_arbiter3x1.v~" "local_arbiter3x1.v")
+
+ ("/home/gscho/Proj/" (23872 25333 361806 529000) "./" "../")
+
+ ("/home/gscho/.emacs.d_org/" (23930 18086 721488 939000) "init.el_org" "./" "elpa/" "invoke-verilator.sh" ".emacs.desktop" "ido.last" "../" ".init.el.swn" ".init.el.swo" "auto-save-list/" ".init.el.swp")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/apb/" (23861 51935 178049 660000) "apb_slave_mux/" "./" "apb_subsystem.v" "apb_bridge.v" "apb_subsystem/" "../" "ahb_to_apb.v" "list.f" "apb_slave_mux.v" "ahb_to_apb/")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/" (23911 53854 344002 185000) "gpio/" "top/" "./" "mem_top/" "apb/" "fast_reg/" "bus/" "../" "riscv/" "common/")
+
+ ("/home/gscho/designs/proj/pulp_ahb/" (23923 51719 864043 339000) "Makefile" "./" "model/" ".gitignore.swp" ".vscode/" "nWaveLog/" "README.md" "sim/" ".gitignore" "../" "CMakeLists.txt" "sim.sh" "fw/" ".git/" "rtl/" "tb/" ".gitmodules")
+
+ ("/home/gscho/designs/proj/" (23907 36114 805293 303000) "./" "sw/" "pulp_soc/" "tools/" "../" "pulp_ahb/")
+
+ ("/home/gscho/designs/" (23915 49788 406879 939000) "template/" "./" "ips/" "riscv-4th-workshop-tutorials/" "soripass/" "novas.rc" "../" "apb.tar.gz" "thetis/" "soripass.tar.gz" "novas.conf" "backup/" "proj/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
