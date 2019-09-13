@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "tabbar-ruler" "tabbar-ruler.el" (23930 17743
-;;;;;;  998065 629000))
+;;;### (autoloads nil "tabbar-ruler" "tabbar-ruler.el" (23930 25622
+;;;;;;  758364 985000))
 ;;; Generated autoloads from tabbar-ruler.el
 
 (autoload 'tabbar-install-faces "tabbar-ruler" "\
@@ -35,8 +35,8 @@ Start the movement for the tabbar
 
 ;;;***
 
-;;;### (autoloads nil nil ("tabbar-ruler-pkg.el") (23930 17744 2065
-;;;;;;  762000))
+;;;### (autoloads nil nil ("tabbar-ruler-pkg.el") (23930 25622 774366
+;;;;;;  353000))
 
 ;;;***
 

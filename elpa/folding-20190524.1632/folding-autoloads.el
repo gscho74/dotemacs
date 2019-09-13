@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "folding" "folding.el" (23930 17748 802225
-;;;;;;  757000))
+;;;### (autoloads nil "folding" "folding.el" (23930 25649 108241
+;;;;;;  292000))
 ;;; Generated autoloads from folding.el
 
 (defvar folding-mode nil "\
@@ -239,8 +239,8 @@ Mouse behavior
 
 ;;;***
 
-;;;### (autoloads nil nil ("folding-pkg.el") (23930 17748 830226
-;;;;;;  690000))
+;;;### (autoloads nil nil ("folding-pkg.el") (23930 25649 136242
+;;;;;;  935000))
 
 ;;;***
 

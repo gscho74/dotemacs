@@ -4,7 +4,7 @@
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "google-translate-default-ui" "google-translate-default-ui.el"
-;;;;;;  (23930 17737 249840 702000))
+;;;;;;  (23930 25617 961942 123000))
 ;;; Generated autoloads from google-translate-default-ui.el
 
 (autoload 'google-translate-query-translate "google-translate-default-ui" "\
@@ -71,7 +71,7 @@ For the meaning of OVERRIDE-P, see `google-translate-query-translate'.
 ;;;***
 
 ;;;### (autoloads nil "google-translate-smooth-ui" "google-translate-smooth-ui.el"
-;;;;;;  (23930 17737 241840 435000))
+;;;;;;  (23930 25617 953941 388000))
 ;;; Generated autoloads from google-translate-smooth-ui.el
 
 (autoload 'google-translate-smooth-translate "google-translate-smooth-ui" "\
@@ -100,7 +100,7 @@ one respectively.
 
 ;;;### (autoloads nil nil ("google-translate-backend.el" "google-translate-core-ui.el"
 ;;;;;;  "google-translate-core.el" "google-translate-pkg.el" "google-translate-tk.el"
-;;;;;;  "google-translate.el") (23930 17737 229840 35000))
+;;;;;;  "google-translate.el") (23930 25617 949941 21000))
 
 ;;;***
 

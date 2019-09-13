@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "ob-translate" "ob-translate.el" (23930 17738
-;;;;;;  249874 35000))
+;;;### (autoloads nil "ob-translate" "ob-translate.el" (23930 25618
+;;;;;;  726011 354000))
 ;;; Generated autoloads from ob-translate.el
 
 (autoload 'org-babel-execute:translate "ob-translate" "\
