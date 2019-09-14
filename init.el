@@ -108,6 +108,15 @@
 ;;        (message "Could not find git project root."))))
 ;; (global-set-key [C-c C-p] 'neotree-project-dir)
 
+(use-package verilog-mode
+  :load-path "elisp/verilog-mode"
+  :mode (("\\.[st]*v[hp]*\\'" . verilog-mode) ;.v, .sv, .svh, .tv, .vp
+         ("\\.f\\'"         . verilog-mode)   ;verilog file lists
+         ("\\.psl\\'"         . verilog-mode)
+         ("\\.vams\\'"        . verilog-mode)
+         ("\\.vinc\\'"        . verilog-mode))
+    )
+
 
 (use-package ob-translate
   :ensure t
