@@ -111,7 +111,7 @@
 (use-package verilog-mode
   :load-path "elisp/verilog-mode"
   :mode (("\\.[st]*v[hp]*\\'" . verilog-mode) ;.v, .sv, .svh, .tv, .vp
-         ("\\.f\\'"         . verilog-mode)   ;verilog file lists
+         ("\\.f\\'"			  . verilog-mode)   ;verilog file lists
          ("\\.psl\\'"         . verilog-mode)
          ("\\.vams\\'"        . verilog-mode)
          ("\\.vinc\\'"        . verilog-mode))
@@ -125,6 +125,12 @@
 
 (use-package tabbar-ruler
   :ensure t
+  :config
+;;  (setq tabbar-ruler-global-tabbar t)    ; get tabbar
+;;  (setq tabbar-ruler-global-ruler t)     ; get global ruler
+;;  (setq tabbar-ruler-popup-menu t)       ; get popup menu.
+;;  (setq tabbar-ruler-popup-toolbar t)    ; get popup toolbar
+;;  (setq tabbar-ruler-popup-scrollbar t)  ; show scroll-bar on mouse-move
 )
 
 (use-package markdown-mode
