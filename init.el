@@ -233,7 +233,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-	(projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
+	(anaconda-mode projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
