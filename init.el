@@ -28,7 +28,7 @@
   (require 'use-package))
 
 ;;; UI setting
-(setq visible-bell 1)
+;;(setq visible-bell 0)
 (set-scroll-bar-mode 'right)
 (setq inhibit-startup-message t)
 (fset 'yes-orno-p 'y-or-n-p)
@@ -211,11 +211,11 @@
   (setq multi-term-program "/bin/bash")
   )
 
-(use-package auto-complete
-  :ensure t
-  :config
-  (ac-config-default)
-  )
+;;(use-package auto-complete
+;;  :ensure t
+;;  :config
+;;  (ac-config-default)
+;;  )
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
