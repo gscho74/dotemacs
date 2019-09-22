@@ -28,7 +28,7 @@
   (require 'use-package))
 
 ;;; UI setting
-(setq visible-bell 1)
+;;(setq visible-bell 0)
 (set-scroll-bar-mode 'right)
 (setq inhibit-startup-message t)
 (fset 'yes-orno-p 'y-or-n-p)
@@ -75,10 +75,6 @@
 ;;  )
 
 
-(use-package neotree
-  :ensure t
-  :bind ([C-f1] . neotree-toggle))
-
 (defun neotree-project-dir ()
     "Open NeoTree using the git root."
     (interactive)
@@ -88,30 +84,65 @@
           (progn
             (neotree-dir project-dir)
             (neotree-find file-name))
-        (message "Could not find git project root."))))
+        (message "Could not find git project root.")))
+        )
 
-(defun neotree-project-dir ()
-    "Open NeoTree using the git root."
-    (interactive)
-    (let ((project-dir (projectile-project-root))
-          (file-name (buffer-file-name)))
-      (neotree-toggle)
-      (if project-dir
-          (if (neo-global--window-exists-p)
-              (progn
-                (neotree-dir project-dir)
-                (neotree-find file-name)))
-        (message "Could not find git project root."))))
- (global-set-key [f8] 'neotree-project-dir)
+(use-package neotree
+  :ensure t
+;;  (global-set-key (kbd "C-c n") 'neotree-project_dir)
+;;  (global-set-key (kbd "C-c N") 'neotree-toggle)
+;;  )
+  :bind ([C-f1] . neotree-project-dir)
+  :bind ([C-f2] . neotree-toggle))
+
+
+;;(define-key map (kbd "C-c C-p") 'neotree-project-dir)
+
+;;(defun neotree-project-dir ()
+;;    "Open NeoTree using the git root."
+;;    (interactive)
+;;    (let ((project-dir (projectile-project-root))
+;;          (file-name (buffer-file-name)))
+;;      (neotree-toggle)
+;;      (if project-dir
+;;          (if (neo-global--window-exists-p)
+;;              (progn
+;;                (neotree-dir project-dir)
+;;                (neotree-find file-name)))
+;;        (message "Could not find git project root."))))
+;; (global-set-key [C-c C-p] 'neotree-project-dir)
+
+(use-package verilog-mode
+  :load-path "elisp/verilog-mode"
+  :mode (("\\.[st]*v[hp]*\\'" . verilog-mode) ;.v, .sv, .svh, .tv, .vp
+         ("\\.f\\'"			  . verilog-mode)   ;verilog file lists
+         ("\\.psl\\'"         . verilog-mode)
+         ("\\.vams\\'"        . verilog-mode)
+         ("\\.vinc\\'"        . verilog-mode))
+    )
 
 
 (use-package ob-translate
   :ensure t
   :config
+  (require 'google-translate)
+  (require 'google-translate-default-ui)
+
+  ;;(global-set-key  (kbd "C-c t") 'google-translate-at-point)
+  (global-set-key "\C-ct" 'google-translate-at-point)
+  (global-set-key "\C-cT" 'google-translate-query-translate)
+  (setq google-translate-default-source-language "en")
+  (setq google-translate-default-target-language "ko")
   (setq ob-translate:default-dest "ko"))
 
 (use-package tabbar-ruler
   :ensure t
+  :config
+;;  (setq tabbar-ruler-global-tabbar t)    ; get tabbar
+;;  (setq tabbar-ruler-global-ruler t)     ; get global ruler
+;;  (setq tabbar-ruler-popup-menu t)       ; get popup menu.
+;;  (setq tabbar-ruler-popup-toolbar t)    ; get popup toolbar
+;;  (setq tabbar-ruler-popup-scrollbar t)  ; show scroll-bar on mouse-move
 )
 
 (use-package markdown-mode
@@ -192,11 +223,11 @@
   (setq multi-term-program "/bin/bash")
   )
 
-(use-package auto-complete
-  :ensure t
-  :config
-  (ac-config-default)
-  )
+;;(use-package auto-complete
+;;  :ensure t
+;;  :config
+;;  (ac-config-default)
+;;  )
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -206,6 +237,7 @@
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
  '(column-number-mode t)
+ '(cua-mode t nil (cua-base))
  '(custom-enabled-themes (quote (deeper-blue)))
  '(default
 	((t
@@ -214,7 +246,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-	(projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
+	(anaconda-mode projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

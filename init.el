@@ -38,7 +38,7 @@
 (setq inhibit-startup-message t) ;; hide the startup message
 (setq x-alt-keysym 'meta)
 (setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
-(global-linum-mode 1)
+;;(global-linum-mode 1)
 
 (use-package flycheck
   :init (global-flycheck-mode)
@@ -75,12 +75,6 @@
 ;;  )
 
 
-(use-package neotree
-  :ensure t
-  :bind ([C-f1] . neotree-project-dir)
-  :bind ([C-f2] . neotree-toggle))
-;;  :bind ([C-f1] . neotree-toggle))
-
 (defun neotree-project-dir ()
     "Open NeoTree using the git root."
     (interactive)
@@ -90,7 +84,17 @@
           (progn
             (neotree-dir project-dir)
             (neotree-find file-name))
-        (message "Could not find git project root."))))
+        (message "Could not find git project root.")))
+        )
+
+(use-package neotree
+  :ensure t
+;;  (global-set-key (kbd "C-c n") 'neotree-project_dir)
+;;  (global-set-key (kbd "C-c N") 'neotree-toggle)
+;;  )
+  :bind ([C-f1] . neotree-project-dir)
+  :bind ([C-f2] . neotree-toggle))
+
 
 ;;(define-key map (kbd "C-c C-p") 'neotree-project-dir)
 
@@ -121,6 +125,14 @@
 (use-package ob-translate
   :ensure t
   :config
+  (require 'google-translate)
+  (require 'google-translate-default-ui)
+
+  ;;(global-set-key  (kbd "C-c t") 'google-translate-at-point)
+  (global-set-key "\C-ct" 'google-translate-at-point)
+  (global-set-key "\C-cT" 'google-translate-query-translate)
+  (setq google-translate-default-source-language "en")
+  (setq google-translate-default-target-language "ko")
   (setq ob-translate:default-dest "ko"))
 
 (use-package tabbar-ruler
@@ -225,6 +237,7 @@
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
  '(column-number-mode t)
+ '(cua-mode t nil (cua-base))
  '(custom-enabled-themes (quote (deeper-blue)))
  '(default
 	((t
