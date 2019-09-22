@@ -1,0 +1,12 @@
+/tools/license/load_arm_license
+/tools/license/#load_arm_license#
+/tools/license/license_arm.dat
+/tools/license/#license_arm.dat#
+/tools/license/mac_change
+/tools/license/#mac_change#
+/home/gscho/designs/proj/pulp_ahb/rtl/dbg/dbg_top.v
+/home/gscho/designs/proj/pulp_ahb/rtl/dbg/#dbg_top.v#
+/home/gscho/designs/proj/pulp_ahb/rtl/dbg/lint_jtag_wrap.sv
+/home/gscho/designs/proj/pulp_ahb/rtl/dbg/#lint_jtag_wrap.sv#
+/home/gscho/designs/proj/pulp_ahb/rtl/dbg/adv_dbg_if/rtl/adbg_lintonly_top.sv
+/home/gscho/designs/proj/pulp_ahb/rtl/dbg/adv_dbg_if/rtl/#adbg_lintonly_top.sv#
