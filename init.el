@@ -5,8 +5,8 @@
         ("melpa"        . "https://melpa.org/packages/"))
       package-archive-priorities
       '(
-        ("melpa"        . 10)
-        ("elpa"     . 5)
+        ("elpa"        . 10)
+        ("melpa"     . 5)
         ("melpa-stable" . 0)
         ))
 
@@ -23,7 +23,7 @@
       (package-install package)))
       my_packages)
 (setq use-package-verbose t)
-(setq use-package-always-bin "melpa")
+(setq use-package-always-bin "elpa")
 (eval-when-compile
   (require 'use-package))
 
@@ -151,7 +151,7 @@
   :mode (("README\\.md\\'" . gfm-mode)
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
-  :init (setq markdown-command "multimarkdown"))
+  :init (setq markdown-command "/usr/bin/pandoc"))
 
 (use-package yaml-mode
   :ensure t
@@ -173,15 +173,15 @@
   :init
   (add-hook 'python-mode-hook 'py-autopep8-enable-on-save))
 
-(use-package ensime
-  :ensure t
-  :pin melpa)
+(use-package ensime 
+ :ensure t
+  :pin elpa)
 
 (use-package sbt-mode
-  :pin melpa)
+  :pin elpa)
 
 (use-package scala-mode
-  :pin melpa)
+  :pin elpa)
 
 (use-package firrtl-mode
   :ensure t)
@@ -243,10 +243,9 @@
 	((t
 	  (:family "DejaVu Sans Mono" :foundry "unknown" :slant normal :weight normal :height 101 :width normal))))
  '(inhibit-startup-screen t)
- '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-	(anaconda-mode projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
+	(pdf-tools anaconda-mode projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -274,3 +273,6 @@
       (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
 
 (global-set-key (kbd "C-x C-b") 'kill-other-buffers)
+
+(pdf-tools-install)
+

@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/gscho/notebook/" . "riscv_spec/")
  ("/" . "tools/")
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/src/" . "deprecated/")
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/" . "src/")
@@ -25,17 +26,19 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/gscho/notebook/riscv_spec/"
  "/home/gscho/.emacs.d/"
- "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/"
- "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/src/deprecated/"
+ "/home/gscho/notebook/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/riscv-dbg/src/"
+ "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/"
+ "/home/gscho/designs/proj/pulp_ahb/rtl/top/"
+ "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/src/deprecated/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/common_cells/src/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/components/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/includes/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/adv_dbg_if/rtl/"
  "/tools/ARM/"
  "/tools/license/"
- "/home/gscho/designs/proj/pulp_ahb/rtl/top/"
  "/home/gscho/"
  "/home/gscho/designs/proj/pulp_ahb/model/sram/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/riscv/"
@@ -46,31 +49,39 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "riscv-spec.pdf"
  "init.el"
+ "riscv_spec_korean.md"
+ "dm_ahb_sba.v"
+ "dm_sba.sv"
  "dbg_top.v"
+ "top.v"
  "cluster_clk_cells.sv"
  ".lint"
  "cdc_2phase.sv"
- "dm_pkg.sv"
- "dbg_defines.vh"
- "dbg_defines.sv"
- "adbg_top.sv"
- "bash_profile"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gscho/.emacs.d/" (23943 11853 955731 842000) "recentf" "snippets/" ".git/" "./" "elpa/" "ido.last~" "invoke-verilator.sh" "ac-comphist.dat" "init.el~" "init.el" "url/" "ido.last" "../" "README.md" "elisp/" "jslee_init.el" "auto-save-list/" "session.23bdf337f-330a-455f-bfc6-b28519e37b67")
+ ("/home/gscho/notebook/" (23956 39675 610542 646000) "riscv_spec_korean.md~" "riscv_spec/" "Castle.In.The.Sky.1986.JAPANESE.1080p.BluRay.H264.AAC-VXT.torrent" "AHB Bus 기반 Pulp  Crossbar Interconnector.md" "riscv_spec_korean.md" "riscv_spec_korean.html" "./" "pulp_ahb.ipynb" "CremaLunar/" "Untitled.md" "../" "KEPH/" "AHB Bus 기반 Pulp  Crossbar Interconnector.pdf" "AHB Bus 기반 Pulp  Crossbar Interconnector.docx" ".ipynb_checkpoints/" "My Kindle Content/")
 
- ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/" (23943 6328 66387 606000) "components/" "common_cells/" "pulpissimo/" "apb2per/" "tech_cells_generic/" "dbg_top.v~" "riscv-dbg/" "includes/" "jtag_tap_top.sv" "./" ".lint~" ".lint" "../" "adv_dbg_if/" "lint_jtag_wrap.sv" "dbg_top.v")
+ ("/home/gscho/" (23956 41693 170188 760000) ".simvision/" ".dmrc" ".gitconfig" ".putty/" ".xsession-errors.old" ".mime.types" ".HashCheck/" "템플릿/" ".backups/" ".config/" ".gphoto/" ".kodi/" ".dropbox-dist/" ".lesshst" ".vscode-cpptools/" "snap/" ".bash_aliases" ".odbc.ini" ".gtkrc-2.0" ".subversion/" ".xinputrc" ".backup/" ".EMOHCx109" ".emacs.d_org/" ".Xdefaults" ".viminfo" ".screenlets/" ".moc/" ".pki/" ".gnome2_private/" ".vimrc" "Dropbox/" ".atrenta/" ".gitignore" ".sh_history" ".ssh/" "./" "음악/" ".gtkpod/" ".rpmdb/" "work/" ".emacs.d/" ".gksu.lock" ".gconf/" ".verdi_onesearch_history.log" ".ncftp/" ".vmware/" ".jupyter/" ".gnome/" "바탕화면/" "ext_hd1/" ".gnome2/" ".mozilla/" ".gnupg/" ".emacs~" ".sudo_as_admin_successful" ".ICEauthority" ".bashrc" "비디오/" ".thumbnails/" ".thunderbird/" ".bash_history" ".ARM/" "사진/" ".vp_password.lock" "designs/" ".dropbox/" ".wget-hsts" ".scripts/" ".shortcuts/" ".nabi/" ".python_history" "문서/" ".xscreensaver" "../" ".profile" ".qt/" ".fonts/" ".vscode/" ".conky/" ".bash_logout" "공개/" ".xsession-errors" ".Xauthority" ".face" "다운로드/" "notebook/" ".vim/" "Downloads/" ".picasso_27000.txt" ".cache/" "Proj/" ".local/" ".cxoffice/" ".ipython/" "ext_hd2/" ".Synplicity/" ".sound/" ".delfino.conf" ".dbus/" ".presage/")
 
- ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/riscv-dbg/src/" (23943 6149 384026 327000) "dmi_jtag_tap.sv" "dm_top.sv" "dmi_jtag.sv" "dm_sba.sv" "./" ".lint~" ".lint" "../" "dm_pkg.sv" "dmi_cdc.sv" "dm_mem.sv" "dm_csrs.sv")
+ ("/home/gscho/.emacs.d/" (23955 28905 946799 233000) "recentf" "snippets/" ".git/" "./" "elpa/" "ido.last~" "invoke-verilator.sh" "ac-comphist.dat" "init.el~" "init.el" "url/" "ido.last" "session.29fe14e05-9c3f-46e8-ac28-7dcea6e1e5eb" "../" "README.md" "elisp/" "jslee_init.el" "auto-save-list/" "session.23bdf337f-330a-455f-bfc6-b28519e37b67")
+
+ ("/home/gscho/notebook/riscv_spec/" (23950 6815 642548 111000) "riscv-isa-manual-draft-20190926-efd8a03.zip" "./" "../" "riscv-privileged.pdf" "riscv-spec.pdf")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/adv_dbg_if/rtl/" (23943 29346 346434 90000) "adbg_or1k_module.sv" "adbg_crc32.v" "adv_dbg_if.sv" "syncflop.v" "adbg_lintonly_top.sv" "adbg_or1k_status_reg.sv" "adbg_axi_module.sv" "./" "adbg_or1k_defines.v" "adbg_lint_module.sv" "syncreg.v" "adbg_tap_defines.v" "adbg_top.sv" "adbg_lint_biu.sv" "adbg_or1k_biu.sv" "adbg_axi_biu.sv" "../" "bytefifo.v" "adbg_axionly_top.sv" "adbg_lint_defines.v" "adbg_defines.v" "adbg_tap_top.v" "adbg_axi_defines.v")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/src/deprecated/" (23943 1443 712938 419000) "pulp_clock_and2.sv" "cluster_clk_cells_xilinx.sv" "pulp_clk_cells_xilinx.sv" "pulp_clock_mux2.sv" "cluster_clock_gating.sv" "pulp_clock_delay.sv" "./" "pulp_clock_xor2.sv" "cluster_clock_and2.sv" "generic_rom.sv" "cluster_clock_inverter.sv" "cluster_clock_buffer.sv" "pulp_buffer.sv" "pulp_pwr_cells.sv" "pulp_clock_inverter.sv" "generic_memory.sv" "cluster_clock_xor2.sv" "../" "pad_functional.sv" "pulp_clock_gating.sv" "pulp_clock_buffer.sv" "pulp_clock_gating_async.sv" "cluster_pwr_cells.sv" "cluster_clock_mux2.sv")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/top/" (23943 30536 301087 786000) "core.v" "./" "list.f" ".lint" "riscv.v" "../" "top.v" "#core.v#")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/" (23948 50270 258883 492000) "components/" "common_cells/" "pulpissimo/" "apb2per/" "tech_cells_generic/" "dbg_top.v~" "riscv-dbg/" "includes/" "jtag_tap_top.sv" "./" ".lint~" ".lint" "../" "adv_dbg_if/" "lint_jtag_wrap.sv" "dbg_top.v")
+
+ ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/riscv-dbg/src/" (23948 55048 797238 499000) "dmi_jtag_tap.sv" "dm_top.sv" "dm_ahb_sba.v~" "dmi_jtag.sv" "dm_sba.sv" "./" ".lint~" ".lint" "../" "dm_pkg.sv" "dmi_cdc.sv" "dm_mem.sv" "dm_csrs.sv" "dm_ahb_sba.v" "#dm_top.sv#")
 
  ("/home/gscho/designs/backup/" (23907 36038 0 0) "thetis/" "db.tar.gz" "./" "../" "sns.zip" "tg.tar.gz")
-
- ("/home/gscho/" (23943 5869 228847 953000) ".simvision/" ".dmrc" ".gitconfig" ".putty/" ".xsession-errors.old" ".mime.types" ".HashCheck/" "템플릿/" ".backups/" ".config/" ".gphoto/" ".kodi/" ".dropbox-dist/" ".lesshst" ".vscode-cpptools/" "snap/" ".bash_aliases" ".odbc.ini" ".gtkrc-2.0" ".subversion/" ".xinputrc" ".backup/" ".EMOHCx109" ".emacs.d_org/" ".Xdefaults" ".viminfo" ".screenlets/" ".moc/" ".pki/" ".gnome2_private/" ".vimrc" "Dropbox/" ".atrenta/" ".gitignore" ".sh_history" ".ssh/" "./" "음악/" ".gtkpod/" ".rpmdb/" "work/" ".emacs.d/" ".gksu.lock" ".gconf/" ".verdi_onesearch_history.log" ".ncftp/" ".vmware/" ".jupyter/" ".gnome/" "바탕화면/" "ext_hd1/" ".gnome2/" ".mozilla/" ".gnupg/" ".emacs~" ".sudo_as_admin_successful" ".ICEauthority" ".bashrc" "비디오/" ".thumbnails/" ".thunderbird/" ".bash_history" ".ARM/" "사진/" ".vp_password.lock" "designs/" ".dropbox/" ".wget-hsts" ".scripts/" ".shortcuts/" ".nabi/" ".python_history" "문서/" ".xscreensaver" "../" ".profile" ".qt/" ".fonts/" ".vscode/" ".conky/" ".bash_logout" "공개/" ".xsession-errors" ".Xauthority" ".face" "다운로드/" "notebook/" ".vim/" "Downloads/" ".picasso_27000.txt" ".cache/" "Proj/" ".local/" ".cxoffice/" ".ipython/" "ext_hd2/" ".Synplicity/" ".sound/" ".delfino.conf" ".dbus/" ".presage/")
-
- ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/src/deprecated/" (23942 18630 375764 878000) "cluster_clk_cells_xilinx.sv" "pulp_clk_cells_xilinx.sv" "./" "generic_rom.sv" "pulp_buffer.sv" "pulp_pwr_cells.sv" "generic_memory.sv" "../" "pulp_clk_cells.sv" "pad_functional.sv" "pulp_clock_gating_async.sv" "cluster_pwr_cells.sv" "cluster_clk_cells.sv")
 
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/src/" (23942 18630 375764 878000) "rtl/" "./" "tc_pwr.sv" "deprecated/" "fpga/" "../")
 
@@ -83,8 +94,6 @@
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/components/" (23942 17289 835402 292000) "src_files.yml" "tcdm_arbiter_2x1.sv" "apb_soc_ctrl.sv" "freq_meter.sv" "apb_clkdiv.sv" "pulp_interfaces.sv" "apb_timer_unit.sv" "axi_slice_dc_master_wrap.sv" "./" "scm_2048x32.sv" "apb_dummy.sv" ".lint" "tcdm_arbiter_2x1.sv~" "../" "glitch_free_clk_mux.sv" "glitch_free_clk_mux_xilinx.sv" "memory_models.sv" "scm_512x32.sv" "axi_slice_dc_slave_wrap.sv")
 
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/includes/" (23942 8604 870985 578000) "soc_bus_defines.sv" "./" "pulp_soc_defines.sv" "periph_bus_defines.sv" "dbg_defines.vh" "../")
-
- ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/adv_dbg_if/rtl/" (23940 58915 144980 891000) "adbg_or1k_module.sv" "adbg_crc32.v" "adv_dbg_if.sv" "syncflop.v" "adbg_lintonly_top.sv" "adbg_or1k_status_reg.sv" "adbg_axi_module.sv" "./" "adbg_or1k_defines.v" "adbg_lint_module.sv" "syncreg.v" "adbg_tap_defines.v" "adbg_top.sv" "adbg_lint_biu.sv" "adbg_or1k_biu.sv" "adbg_axi_biu.sv" "../" "bytefifo.v" "adbg_axionly_top.sv" "adbg_lint_defines.v" "adbg_defines.v" "adbg_tap_top.v" "adbg_axi_defines.v")
 
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/pulpissimo/" (23932 61312 0 0) "rtc_date.sv" "src_files.yml" "safe_domain.sv" "soc_domain.sv" "safe_domain_reg_if.sv" "jtag_tap_top.sv" "./" "pulpissimo.sv" "rtc_clock.sv" "pad_control.sv" "../" "pulp_soc.sv" "pad_frame.sv")
 
@@ -103,8 +112,6 @@
  ("/tools/license/" (23913 56442 498630 657000) "license_synopsys.dat" "load_arm_license" "license_cadence.dat" "./" "license_synopsys.dat_org" "bin/" "cadence.dat" "license_novas.dat" "license_arm.dat" "../" "mac_change" "load_synop_license" "scl_keygen.tar.gz")
 
  ("/home/gscho/.emacs.d/auto-save-list/" (23938 14439 651417 635000) "./" ".emacs.desktop" ".saves-25898-picasso~" "../")
-
- ("/home/gscho/designs/proj/pulp_ahb/rtl/top/" (23938 14641 13809 695000) "core.v" "./" "list.f" ".lint" "riscv.v" "../" "top.v" "#core.v#")
 
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/riscv-dbg/" (23932 61618 0 0) "src_files.yml" "LICENSE" ".README.md.swp" "src/" "LICENSE.SiFive" "./" "debug_rom/" "../" "README.md" "CHANGELOG.md")
 
