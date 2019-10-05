@@ -45,7 +45,7 @@
   :ensure t
   :config
   (setq flycheck-check-syntax-automatically '(mode-enabled idle-buffer-switch idle-change save))
-  (setq flycheck-verilog-verilator-executable "~/.emacs.d/invoke-verilator.sh")
+  (setq flycheck-verilog-verilator-executable "~/.emacs.d/script/invoke-verilator.sh")
 
   )
 
@@ -245,7 +245,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-	(pdf-tools anaconda-mode projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
+	(nov pdf-tools anaconda-mode projectile py-autopep8 helm auto-complete multi-term autopair folding firrtl-mode ensime elpy yaml-mode markdown-mode tabbar-ruler ob-translate neotree flycheck use-package)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

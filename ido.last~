@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/gscho/.emacs.d/elpa/" . "nov-20190821.1920/")
  ("/home/gscho/notebook/" . "riscv_spec/")
  ("/" . "tools/")
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/tech_cells_generic/src/" . "deprecated/")
@@ -17,7 +18,7 @@
  ("/home/gscho/.emacs.d/" . "auto-save-list/")
  ("/home/gscho/designs/proj/pulpissimo/rtl/" . "pulpissimo/")
  ("/home/gscho/designs/proj/pulpissimo/" . "rtl/")
- ("/home/gscho/" . "designs/")
+ ("/home/gscho/" . "notebook/")
  ("/home/gscho/designs/proj/pulp_ahb/rtl/" . "dbg/")
  ("/home/gscho/designs/proj/pulp_ahb/" . "rtl/")
  ("/home/gscho/designs/proj/" . "pulp_ahb/")
@@ -26,9 +27,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/gscho/notebook/riscv_spec/"
+ "/home/gscho/.emacs.d/elpa/nov-20190821.1920/"
  "/home/gscho/.emacs.d/"
  "/home/gscho/notebook/"
+ "/home/gscho/notebook/riscv_spec/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/riscv-dbg/src/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/top/"
@@ -49,27 +51,31 @@
 
 ;; ----- ido-work-file-list -----
 (
- "riscv-spec.pdf"
+ "nov.el"
  "init.el"
  "riscv_spec_korean.md"
+ "riscv-spec.pdf"
  "dm_ahb_sba.v"
  "dm_sba.sv"
  "dbg_top.v"
  "top.v"
  "cluster_clk_cells.sv"
  ".lint"
- "cdc_2phase.sv"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gscho/notebook/" (23956 39675 610542 646000) "riscv_spec_korean.md~" "riscv_spec/" "Castle.In.The.Sky.1986.JAPANESE.1080p.BluRay.H264.AAC-VXT.torrent" "AHB Bus 기반 Pulp  Crossbar Interconnector.md" "riscv_spec_korean.md" "riscv_spec_korean.html" "./" "pulp_ahb.ipynb" "CremaLunar/" "Untitled.md" "../" "KEPH/" "AHB Bus 기반 Pulp  Crossbar Interconnector.pdf" "AHB Bus 기반 Pulp  Crossbar Interconnector.docx" ".ipynb_checkpoints/" "My Kindle Content/")
+ ("/home/gscho/" (23959 25398 271169 176000) ".simvision/" ".dmrc" ".gitconfig" ".putty/" ".xsession-errors.old" ".mime.types" ".HashCheck/" "템플릿/" ".backups/" ".config/" ".gphoto/" ".kodi/" ".dropbox-dist/" ".lesshst" ".vscode-cpptools/" "snap/" ".bash_aliases" ".odbc.ini" ".gtkrc-2.0" ".subversion/" ".xinputrc" ".backup/" ".EMOHCx109" ".emacs.d_org/" ".Xdefaults" ".viminfo" ".screenlets/" ".moc/" ".pki/" ".gnome2_private/" ".vimrc" "Dropbox/" ".atrenta/" ".gitignore" ".sh_history" ".ssh/" "./" "음악/" ".gtkpod/" ".rpmdb/" "work/" ".emacs.d/" ".gksu.lock" ".gconf/" ".verdi_onesearch_history.log" ".ncftp/" ".vmware/" ".jupyter/" ".gnome/" "바탕화면/" "ext_hd1/" ".gnome2/" ".mozilla/" ".gnupg/" ".emacs~" ".sudo_as_admin_successful" ".ICEauthority" ".bashrc" "비디오/" ".thumbnails/" ".thunderbird/" ".bash_history" ".ARM/" "사진/" "빅 픽처 - 더글라스 케네디.epub" ".vp_password.lock" "designs/" ".dropbox/" ".wget-hsts" ".scripts/" ".shortcuts/" ".nabi/" ".python_history" "문서/" ".xscreensaver" "../" ".profile" ".qt/" ".fonts/" ".vscode/" ".conky/" ".bash_logout" "공개/" ".xsession-errors" ".Xauthority" ".face" "다운로드/" "notebook/" ".vim/" ".picasso_27000.txt" ".cache/" "Proj/" ".local/" ".cxoffice/" ".ipython/" "ext_hd2/" ".Synplicity/" ".sound/" ".delfino.conf" ".dbus/" ".presage/")
 
- ("/home/gscho/" (23956 41693 170188 760000) ".simvision/" ".dmrc" ".gitconfig" ".putty/" ".xsession-errors.old" ".mime.types" ".HashCheck/" "템플릿/" ".backups/" ".config/" ".gphoto/" ".kodi/" ".dropbox-dist/" ".lesshst" ".vscode-cpptools/" "snap/" ".bash_aliases" ".odbc.ini" ".gtkrc-2.0" ".subversion/" ".xinputrc" ".backup/" ".EMOHCx109" ".emacs.d_org/" ".Xdefaults" ".viminfo" ".screenlets/" ".moc/" ".pki/" ".gnome2_private/" ".vimrc" "Dropbox/" ".atrenta/" ".gitignore" ".sh_history" ".ssh/" "./" "음악/" ".gtkpod/" ".rpmdb/" "work/" ".emacs.d/" ".gksu.lock" ".gconf/" ".verdi_onesearch_history.log" ".ncftp/" ".vmware/" ".jupyter/" ".gnome/" "바탕화면/" "ext_hd1/" ".gnome2/" ".mozilla/" ".gnupg/" ".emacs~" ".sudo_as_admin_successful" ".ICEauthority" ".bashrc" "비디오/" ".thumbnails/" ".thunderbird/" ".bash_history" ".ARM/" "사진/" ".vp_password.lock" "designs/" ".dropbox/" ".wget-hsts" ".scripts/" ".shortcuts/" ".nabi/" ".python_history" "문서/" ".xscreensaver" "../" ".profile" ".qt/" ".fonts/" ".vscode/" ".conky/" ".bash_logout" "공개/" ".xsession-errors" ".Xauthority" ".face" "다운로드/" "notebook/" ".vim/" "Downloads/" ".picasso_27000.txt" ".cache/" "Proj/" ".local/" ".cxoffice/" ".ipython/" "ext_hd2/" ".Synplicity/" ".sound/" ".delfino.conf" ".dbus/" ".presage/")
+ ("/home/gscho/notebook/" (23959 25287 134676 850000) "riscv_spec_korean.md~" "riscv_spec/" "Castle.In.The.Sky.1986.JAPANESE.1080p.BluRay.H264.AAC-VXT.torrent" "AHB Bus 기반 Pulp  Crossbar Interconnector.md" "riscv_spec_korean.md" "riscv_spec_korean.html" "./" "pulp_ahb.ipynb" "CremaLunar/" "Untitled.md" "../" "KEPH/" "AHB Bus 기반 Pulp  Crossbar Interconnector.pdf" "AHB Bus 기반 Pulp  Crossbar Interconnector.docx" ".ipynb_checkpoints/" "My Kindle Content/")
 
- ("/home/gscho/.emacs.d/" (23955 28905 946799 233000) "recentf" "snippets/" ".git/" "./" "elpa/" "ido.last~" "invoke-verilator.sh" "ac-comphist.dat" "init.el~" "init.el" "url/" "ido.last" "session.29fe14e05-9c3f-46e8-ac28-7dcea6e1e5eb" "../" "README.md" "elisp/" "jslee_init.el" "auto-save-list/" "session.23bdf337f-330a-455f-bfc6-b28519e37b67")
+ ("/home/gscho/.emacs.d/elpa/nov-20190821.1920/" (23959 25288 198681 578000) "./" "nov-autoloads.el" "../" "nov.el" "nov-pkg.el" "nov.elc")
 
- ("/home/gscho/notebook/riscv_spec/" (23950 6815 642548 111000) "riscv-isa-manual-draft-20190926-efd8a03.zip" "./" "../" "riscv-privileged.pdf" "riscv-spec.pdf")
+ ("/home/gscho/.emacs.d/elpa/" (23959 25287 930680 387000) "auto-complete-20170125.245/" "s-20180406.808/" "autopair-20160304.1237/" "tabbar-20180726.1735/" "f-20190109.906/" "nov-20190821.1920/" "multi-term-20190624.1147/" "flycheck-20190906.813/" "tabbar-ruler-20160802.307/" "neotree-20181121.2026/" "yasnippet-20190724.1204/" "company-20190907.1149/" "pythonic-20190725.1258/" "ensime-20180615.1330/" "helm-core-20190830.635/" "markdown-mode-20190802.2215/" "async-20190503.656/" "ivy-20190825.1023/" "helm-20190830.1604/" "./" "projectile-20190904.1025/" "find-file-in-project-20190720.313/" "epl-20180205.2049/" "pyvenv-20181228.1722/" "scala-mode-20170802.1132/" "use-package-20190716.1829/" "pkg-info-20150517.1143/" "folding-20190524.1632/" "../" "pdf-tools-0.90/" "esxml-20171129.807/" "firrtl-mode-20190224.344/" "ob-translate-20170720.1919/" "archives/" "popup-20160709.1429/" "yaml-mode-20190625.1740/" "highlight-indentation-20181204.839/" "mode-icons-20190627.2121/" "sbt-mode-20180511.1622/" "tablist-20190414.643/" "dash-20190814.2006/" "py-autopep8-20160925.1052/" "google-translate-20190620.1416/" "org-9.2.6/" "material-theme-20171123.1840/" "elpy-20190910.2224/" "bind-key-20180513.430/" "powerline-20190323.213/")
+
+ ("/home/gscho/.emacs.d/" (23959 25313 670794 672000) "image-dired/" "recentf" "snippets/" ".git/" "./" "elpa/" "ido.last~" "invoke-verilator.sh" "ac-comphist.dat" "init.el~" "init.el" "url/" "ido.last" "session.29fe14e05-9c3f-46e8-ac28-7dcea6e1e5eb" "../" "README.md" "elisp/" "jslee_init.el" "auto-save-list/" "session.23bdf337f-330a-455f-bfc6-b28519e37b67")
+
+ ("/home/gscho/notebook/riscv_spec/" (23956 47789 849800 525000) "riscv-isa-manual-draft-20190926-efd8a03.zip" "./" "../" "riscv-privileged.pdf" "riscv-spec.pdf")
 
  ("/home/gscho/designs/proj/pulp_ahb/rtl/dbg/adv_dbg_if/rtl/" (23943 29346 346434 90000) "adbg_or1k_module.sv" "adbg_crc32.v" "adv_dbg_if.sv" "syncflop.v" "adbg_lintonly_top.sv" "adbg_or1k_status_reg.sv" "adbg_axi_module.sv" "./" "adbg_or1k_defines.v" "adbg_lint_module.sv" "syncreg.v" "adbg_tap_defines.v" "adbg_top.sv" "adbg_lint_biu.sv" "adbg_or1k_biu.sv" "adbg_axi_biu.sv" "../" "bytefifo.v" "adbg_axionly_top.sv" "adbg_lint_defines.v" "adbg_defines.v" "adbg_tap_top.v" "adbg_axi_defines.v")
 

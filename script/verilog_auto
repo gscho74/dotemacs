@@ -1,0 +1,1 @@
+emacs --batch $1 -f verilog-mode -f verilog-auto -f save_buffer
