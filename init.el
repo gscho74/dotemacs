@@ -145,6 +145,18 @@
 ;;  (setq tabbar-ruler-popup-scrollbar t)  ; show scroll-bar on mouse-move
 )
 
+(use-package pdf-tools
+ :pin manual ;; manually update
+ :config
+ ;; initialise
+ (pdf-tools-install)
+ ;; open pdfs scaled to fit page
+ ;;(setq-default pdf-view-display-size 'fit-page)
+ ;; automatically annotate highlights
+ (setq pdf-annot-activate-created-annotations t)
+ ;; use normal isearch
+ (define-key pdf-view-mode-map (kbd "C-s") 'isearch-forward))
+
 (use-package markdown-mode
   :ensure t
     :commands (markdown-mode gfm-mode)
@@ -273,6 +285,3 @@
       (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
 
 (global-set-key (kbd "C-x C-b") 'kill-other-buffers)
-
-(pdf-tools-install)
-

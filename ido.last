@@ -27,11 +27,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/gscho/notebook/riscv_spec/"
  "/home/gscho/"
  "/home/gscho/.emacs.d/elpa/nov-20190821.1920/"
  "/home/gscho/.emacs.d/"
  "/home/gscho/notebook/"
- "/home/gscho/notebook/riscv_spec/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/riscv-dbg/src/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/dbg/"
  "/home/gscho/designs/proj/pulp_ahb/rtl/top/"
@@ -51,11 +51,11 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "riscv-spec.pdf"
  "test.c"
  "nov.el"
  "init.el"
  "riscv_spec_korean.md"
- "riscv-spec.pdf"
  "dm_ahb_sba.v"
  "dm_sba.sv"
  "dbg_top.v"
@@ -65,9 +65,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gscho/" (23960 7850 103747 666000) ".simvision/" ".dmrc" ".gitconfig" ".putty/" "90alsa" ".xsession-errors.old" ".mime.types" ".HashCheck/" "템플릿/" ".backups/" ".config/" ".gphoto/" "verilog_auto" ".kodi/" ".dropbox-dist/" ".lesshst" ".vscode-cpptools/" "snap/" ".bash_aliases" ".odbc.ini" ".gtkrc-2.0" ".subversion/" ".xinputrc" ".backup/" ".EMOHCx109" ".emacs.d_org/" ".Xdefaults" ".viminfo" ".screenlets/" ".moc/" ".kbd-backlight-value" ".pki/" ".gnome2_private/" ".vimrc" "Dropbox/" ".atrenta/" ".gitignore" ".sh_history" ".ssh/" "./" "음악/" ".gtkpod/" ".rpmdb/" "work/" ".emacs.d/" ".gksu.lock" ".gconf/" ".verdi_onesearch_history.log" ".ncftp/" ".vmware/" ".jupyter/" ".gnome/" "PlayOnLinux's virtual drives/" "바탕화면/" "ext_hd1/" ".gnome2/" ".mozilla/" ".gnupg/" ".emacs~" ".sudo_as_admin_successful" ".ICEauthority" ".bashrc" "비디오/" ".thumbnails/" ".thunderbird/" ".bash_history" ".ARM/" "사진/" ".vp_password.lock" ".dropbox/" ".wget-hsts" ".scripts/" ".shortcuts/" ".nabi/" ".python_history" "문서/" ".xscreensaver" "../" ".profile" ".qt/" ".fonts/" ".vscode/" ".conky/" ".bash_logout" "공개/" ".xsession-errors" ".Xauthority" ".face" "다운로드/" "notebook/" "winehq.key" ".PlayOnLinux/" "빅 픽처 - 더글라스 케네디.png" ".vim/" "repo/" ".picasso_27000.txt" ".cache/" "Proj/" ".local/" ".cxoffice/" ".ipython/" "ext_hd2/" ".Synplicity/" ".sound/" ".delfino.conf" ".dbus/" ".presage/")
+ ("/home/gscho/notebook/" (23961 30468 751859 86000) "riscv_spec_korean.md~" "riscv_spec/" "Castle.In.The.Sky.1986.JAPANESE.1080p.BluRay.H264.AAC-VXT.torrent" "Untitled.ipynb" "AHB Bus 기반 Pulp  Crossbar Interconnector.md" "riscv_spec_korean.md" "riscv_spec_korean.html" "./" "카카오톡 받은 파일/" "pulp_ahb.ipynb" "CremaLunar/" "Untitled.md" "../" "KEPH/" "AHB Bus 기반 Pulp  Crossbar Interconnector.pdf" "AHB Bus 기반 Pulp  Crossbar Interconnector.docx" ".ipynb_checkpoints/" "My Kindle Content/")
 
- ("/home/gscho/notebook/" (23959 25287 134676 850000) "riscv_spec_korean.md~" "riscv_spec/" "Castle.In.The.Sky.1986.JAPANESE.1080p.BluRay.H264.AAC-VXT.torrent" "AHB Bus 기반 Pulp  Crossbar Interconnector.md" "riscv_spec_korean.md" "riscv_spec_korean.html" "./" "pulp_ahb.ipynb" "CremaLunar/" "Untitled.md" "../" "KEPH/" "AHB Bus 기반 Pulp  Crossbar Interconnector.pdf" "AHB Bus 기반 Pulp  Crossbar Interconnector.docx" ".ipynb_checkpoints/" "My Kindle Content/")
+ ("/home/gscho/" (23961 60218 294403 724000) ".simvision/" ".dmrc" ".gitconfig" ".putty/" ".xsession-errors.old" ".mime.types" ".HashCheck/" "템플릿/" ".backups/" ".config/" ".gphoto/" ".kodi/" ".dropbox-dist/" ".lesshst" ".vscode-cpptools/" "snap/" ".bash_aliases" ".odbc.ini" ".gtkrc-2.0" ".subversion/" ".xinputrc" ".backup/" ".EMOHCx109" ".emacs.d_org/" ".Xdefaults" ".viminfo" ".screenlets/" ".moc/" ".kbd-backlight-value" ".pki/" ".gnome2_private/" ".vimrc" "Dropbox/" ".atrenta/" ".gitignore" ".sh_history" ".ssh/" "./" "음악/" ".gtkpod/" ".rpmdb/" ".emacs.d/" ".gksu.lock" ".gconf/" ".verdi_onesearch_history.log" ".ncftp/" ".vmware/" ".jupyter/" ".gnome/" "바탕화면/" "ext_hd1/" ".gnome2/" ".mozilla/" ".gnupg/" ".emacs~" ".sudo_as_admin_successful" ".ICEauthority" ".bashrc" "비디오/" ".thumbnails/" ".thunderbird/" ".bash_history" ".ARM/" "사진/" ".vp_password.lock" ".dropbox/" ".wget-hsts" ".scripts/" ".shortcuts/" ".nabi/" ".python_history" "문서/" ".xscreensaver" "../" ".profile" ".qt/" ".fonts/" ".vscode/" ".conky/" ".bash_logout" "공개/" ".xsession-errors" ".Xauthority" ".face" "다운로드/" "notebook/" "iso/" ".vim/" ".picasso_27000.txt" ".cache/" "Proj/" ".local/" ".cxoffice/" ".ipython/" "ext_hd2/" ".Synplicity/" ".sound/" ".delfino.conf" "repos/" ".dbus/" ".presage/")
 
  ("/home/gscho/.emacs.d/elpa/nov-20190821.1920/" (23959 25288 198681 578000) "./" "nov-autoloads.el" "../" "nov.el" "nov-pkg.el" "nov.elc")
 
